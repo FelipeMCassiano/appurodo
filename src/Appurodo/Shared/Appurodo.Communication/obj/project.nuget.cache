@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "caoDGuI1vcM=",
+  "success": true,
+  "projectFilePath": "/home/felipe/projects/appurodo/src/Appurodo/Shared/Appurodo.Communication/Appurodo.Communication.csproj",
+  "expectedPackageFiles": [
+    "/home/felipe/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

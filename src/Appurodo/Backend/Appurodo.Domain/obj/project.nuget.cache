@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rk8xsR2/UlI=",
+  "success": true,
+  "projectFilePath": "/home/felipe/projects/appurodo/src/Appurodo/Backend/Appurodo.Domain/Appurodo.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/felipe/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

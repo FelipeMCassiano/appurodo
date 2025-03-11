@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Appurodo.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Appurodo.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Appurodo.Communication.dll": {}
+        }
+      },
+      "Appurodo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Appurodo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Appurodo.Domain.dll": {}
+        }
+      },
+      "Appurodo.Errors/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Appurodo.Errors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Appurodo.Errors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Appurodo.Communication/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Appurodo.Communication/Appurodo.Communication.csproj",
+      "msbuildProject": "../../Shared/Appurodo.Communication/Appurodo.Communication.csproj"
+    },
+    "Appurodo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Appurodo.Domain/Appurodo.Domain.csproj",
+      "msbuildProject": "../Appurodo.Domain/Appurodo.Domain.csproj"
+    },
+    "Appurodo.Errors/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Appurodo.Errors/Appurodo.Errors.csproj",
+      "msbuildProject": "../../Shared/Appurodo.Errors/Appurodo.Errors.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Appurodo.Communication >= 1.0.0",
+      "Appurodo.Domain >= 1.0.0",
+      "Appurodo.Errors >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/felipe/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/felipe/projects/appurodo/src/Appurodo/Backend/Appurodo.Application/Appurodo.Application.csproj",
+      "projectName": "Appurodo.Application",
+      "projectPath": "/home/felipe/projects/appurodo/src/Appurodo/Backend/Appurodo.Application/Appurodo.Application.csproj",
+      "packagesPath": "/home/felipe/.nuget/packages/",
+      "outputPath": "/home/felipe/projects/appurodo/src/Appurodo/Backend/Appurodo.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/felipe/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/felipe/projects/appurodo/src/Appurodo/Backend/Appurodo.Domain/Appurodo.Domain.csproj": {
+              "projectPath": "/home/felipe/projects/appurodo/src/Appurodo/Backend/Appurodo.Domain/Appurodo.Domain.csproj"
+            },
+            "/home/felipe/projects/appurodo/src/Appurodo/Shared/Appurodo.Communication/Appurodo.Communication.csproj": {
+              "projectPath": "/home/felipe/projects/appurodo/src/Appurodo/Shared/Appurodo.Communication/Appurodo.Communication.csproj"
+            },
+            "/home/felipe/projects/appurodo/src/Appurodo/Shared/Appurodo.Errors/Appurodo.Errors.csproj": {
+              "projectPath": "/home/felipe/projects/appurodo/src/Appurodo/Shared/Appurodo.Errors/Appurodo.Errors.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
